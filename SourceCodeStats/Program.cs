@@ -80,7 +80,6 @@ namespace SourceCodeStats
                 throw UAEx;
                 //Console.WriteLine(UAEx.Message);
 
-                // Console.WriteLine(MetaDiver_Core.logging.HandleError(UAEx, "directorylist UnauthorizedAccessException", "BuildDirectoryList: " + dir));
             }
             catch (Exception ex)
             {
